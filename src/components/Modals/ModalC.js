@@ -16,6 +16,8 @@ function ModalC(props) {
 
           <div className="modal-body ModalBody">
             <div>first name : {selectedListItem.first_name}</div>
+            <div>last name : {selectedListItem.last_name}</div>
+            <div>Phone No. : {selectedListItem.phone_number}</div>
             <div>email : {selectedListItem.email}</div>
           </div>
         </div>

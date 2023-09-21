@@ -26,8 +26,15 @@
     transform: translateY(20%) !important;
 
     .ModalBody {
-        max-height: 350px !important;
-        overflow-y: auto !important;
-        min-height: 250px !important;
+        height: 350px !important;
     }
+}
+
+
+
+.liText:hover {
+    color: blue !important;
+    cursor: pointer !important;
+    transition: color 0.3s ease !important;
+
 }

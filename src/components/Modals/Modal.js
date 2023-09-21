@@ -140,7 +140,7 @@ function Modal(props) {
               {contacts.map((contact, i) => {
                 return (
                   <li key={i} onClick={() => handleListItemClick(contact)}>
-                    {contact.first_name} {contact.last_name}
+                 <span className="liText" >   {contact.first_name} {contact.last_name}</span>
                   </li>
                 );
               })}
