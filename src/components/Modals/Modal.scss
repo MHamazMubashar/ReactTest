@@ -1,0 +1,33 @@
+@use 'app';
+
+.USContactsButton {
+    background-color: white !important;
+    border: 1px solid #46139f !important;
+    color: black !important;
+}
+
+.footer {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+
+    label {
+        display: flex !important;
+        align-items: center !important;
+
+        input {
+            margin-right: 5px;
+        }
+    }
+}
+
+.contactsModal {
+    display: block !important;
+    transform: translateY(20%) !important;
+
+    .ModalBody {
+        max-height: 350px !important;
+        overflow-y: auto !important;
+        min-height: 250px !important;
+    }
+}
